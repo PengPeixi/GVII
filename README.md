@@ -27,12 +27,9 @@ $ sh run_vqa_PathVQA.sh
 
 ### Pretrained models and Testing
 
-For our SOTA model on PathVQA dataset `MMQ_BAN_MEVF_pathVQA`. Please download the [link](https://vision.aioz.io/f/23897e70fdb443e9862d/?dl=1) and move to `saved_models/MMQ_BAN_MEVF_pathVQA/`. The trained `MMQ_BAN_MEVF_pathVQA` model can be tested in PathVQA test set via: 
+For our SOTA model on PathVQA dataset `saved_models/MMQ_BAN_MEVF_pathVQA`. The trained `MMQ_BAN_MEVF_pathVQA` model can be tested in PathVQA test set via: 
 ```
 $ sh run_test_PathVQA.sh
 ```
-For our  SOTA model on VQA-RAD dataset `MMQ_BAN_MEVF_vqaRAD`. Please download the [link](https://vision.aioz.io/f/73f86d22c6b546a1afc9/?dl=1) and move to `saved_models/MMQ_BAN_MEVF_vqaRAD/`. The trained `MMQ_BAN_MEVF_vqaRAD` model can be tested in VQA-RAD test set via:
-```
-$ sh run_test_VQA_RAD.sh
-```
+
 The result json file can be found in the directory `results/`.
