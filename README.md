@@ -36,8 +36,3 @@ For our  SOTA model on VQA-RAD dataset `MMQ_BAN_MEVF_vqaRAD`. Please download th
 $ sh run_test_VQA_RAD.sh
 ```
 The result json file can be found in the directory `results/`.
-
-We also provides the pretrained model for further investigation as belows:
-* PathVQA:
-    * The **MAML** models `data_PathVQA/maml/*.pth` is trained by using our MMQ source code.
-    * The **CDAE** model `data_PathVQA/pretrained_ae.pth`.
